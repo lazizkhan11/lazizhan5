@@ -1,0 +1,193 @@
+
+
+/* main */
+.main__one {
+    padding-top: 120px;
+    padding-bottom: 240px;
+}
+.container__title2 {
+    
+font-family: var(--family);
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 100%;
+/* or 51px */
+text-align: center;
+text-transform: uppercase;
+margin-bottom: 40px;
+color: #272727;
+}
+.container__triplbox {
+
+}
+.container__triplbox-one {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.one__onex {
+    width: 32%;
+    height: 400px;
+    background-color: #F1F1F1;
+    display: block;
+    border-radius: 4px;
+    padding: 20px;
+}
+.one__onex-imgbox {
+    background-image: url(../../assets/images/race.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    margin: 0 auto;
+    height: 220px;
+    position: relative;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.imgbox__btn {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #FFFFFF;
+    border: 0;
+    width: 100px;
+    height: 25px;
+    font-family: var(--family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    background-color: #00000066;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;    
+    border-radius: 4px;
+
+}
+.onex__title {
+    
+font-family: var(--family);
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 160%;
+/* or 38px */
+margin-bottom: 10px;
+
+color: #272727;
+}
+.datebox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 130px;
+}
+.datebox__img {
+}
+.datebox__day {
+    
+font-family: var(--family);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 160%;
+/* identical to box height, or 29px */
+
+
+color: #525252;
+}
+
+.one__twox {
+    width: 32%;
+    height: 400px;
+    background-color: #F1F1F1;
+    display: block;
+    border-radius: 4px;
+    padding: 20px;
+}
+.one__twox-imgbox {
+    background-image: url(../../assets/images/red.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    margin: 0 auto;
+    height: 220px;
+    position: relative;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.one__threex-imgbox {
+    background-image: url(../../assets/images/cars.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    margin: 0 auto;
+    height: 220px;
+    position: relative;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.one__fourx-imgbox {
+    background-image: url(../../assets/images/redcar.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    margin: 0 auto;
+    height: 220px;
+    position: relative;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.one__fivex-imgbox {
+    background-image: url(../../assets/images/horses.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    margin: 0 auto;
+    height: 220px;
+    position: relative;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.one__sixx-imgbox {
+    background-image: url(../../assets/images/skates.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    margin: 0 auto;
+    height: 220px;
+    position: relative;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.addbox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+/* .adding{
+font-family: var(--family);
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+width: 190px;
+height: 50px;
+color: #272727;
+background-color: transparent;
+border: 1px solid #C8C8C8;
+border-radius: 4px;
+} */
+/* /main */
+

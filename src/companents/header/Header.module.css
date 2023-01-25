@@ -1,0 +1,260 @@
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+.header {
+    width: 100%;
+    height: 150px;
+    background-color: #272727;
+    
+}
+.header__one {
+    width: 100%;
+    padding-top: 50px;
+}
+.container__navbar {
+    width: 100%;
+    height: 53px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar__a {
+}
+.a__teffine {
+}
+.navbar__ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 703px;
+    padding-top: 15px;
+
+}
+.ul__li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.li__a {
+    font-family: var(--family);
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+color: #FFFFFF;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.ul__li:hover{
+    transition: all 0.5s linear;
+    transform: scale(1.2);
+}
+.navbar__btn {
+    width: 180px;
+font-family: var(--family);
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+height: 53px;
+color: #FFFFFF;
+background: #3f3c3c;
+border-radius: 4px;
+border: 0;
+}
+
+.header__two {
+    position: relative;
+}
+.owl__one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.one__text {
+}
+.one__text-white {
+    font-family: var(---family);
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 160%;
+/* or 77px */
+
+text-transform: uppercase;
+margin: 0;
+color: #FFFFFF;
+
+}
+.one__text-green {
+    font-family: var(---family);
+font-style: normal;
+font-weight: 600;
+font-size: 80px;
+line-height: 150%;
+/* identical to box height, or 120px */
+
+text-transform: uppercase;
+margin: 0;
+color: #63FF00;
+}
+.one__text-lorem {
+    font-family: var(--family);
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+/* or 29px */
+margin-bottom: 48px;
+
+color: #FFFFFF;
+}
+/* .text__btn {
+    background: #FFFFFF;
+border-radius: 4px;
+width: 174px;
+height: 56px;
+font-family: var(--family);
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+color: #272727;
+} */
+.one__img {
+}
+.img__medicine {
+}
+
+/* buttons */
+
+.text__btn{
+  position: relative;
+  color: rgb(0, 0, 0);
+  cursor:pointer;
+  /* user-select:none; */
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition-duration: all 0.4s linear;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  font-family: var(--family);
+  font-weight: bold;
+  background: #FFFFFF;
+  width: 174px;
+  height: 56px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  border-radius: 4px;
+  border: 0;
+  z-index: 111;
+}
+  
+.text__btn:hover {
+    transition-duration: all 0.1s linear;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bolder;
+    z-index: 111;
+
+}
+  
+.text__btn:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 4px;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s linear;
+    box-shadow: 0 0 10px 40px rgb(0, 0, 0);
+    z-index: 111;
+
+}
+  
+.text__btn:active:after {
+    box-shadow: 0 0 0 0 rgb(0, 0, 0);
+    position: absolute;
+    border-radius: 4px;
+    left: 0;
+    top:0;
+    opacity: 1;
+    transition: all 0s linear;
+    z-index: 111;
+
+}
+  
+.text__btn:active {
+  
+    z-index: 111;
+
+}
+
+.navbar__btn{
+    position: relative;
+    color: rgb(255, 255, 255);
+    cursor:pointer;
+    /* user-select:none; */
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: all 0.4s linear;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    font-family: var(--family);
+    font-weight: bold;
+    background: #3f3c3c;
+    width: 174px;
+height: 56px;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+border-radius: 4px;
+border: 0;
+
+
+}
+  
+.navbar__btn:hover {
+    transition-duration: all 0.1s linear;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bolder;
+  }
+  
+  .navbar__btn:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 4px;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s linear;
+    box-shadow: 0 0 10px 40px #000000;
+}
+  
+.navbar__btn:active:after {
+    box-shadow: 0 0 0 0 #211f1f;
+    position: absolute;
+    border-radius: 4px;
+    left: 0;
+    top:0;
+    opacity: 1;
+    transition: all 0s linear;
+}
+  
+/* .navbar__btn:active {
+    top: 1px;
+} */

@@ -1,0 +1,148 @@
+
+
+/* main */
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.main {
+}
+.main__one {
+    padding-top: 120px;
+    padding-bottom: 240px;
+}
+.container__triplbox {
+}
+.container__triplbox_odin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.odin__one {
+    width: 32%;
+    height: 440px;
+    background-color: #F1F1F1;
+    padding: 20px;
+}
+.odin__one_imgbox {
+    background-image: url(../../assets/images/car.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.odin__one_item {
+    
+font-family: var(--family);
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 160%;
+/* or 38px */
+margin-bottom: 8px;
+
+color: #272727;
+}
+.odin__one_grey {
+    
+font-family: var(--family);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 160%;
+/* or 29px */
+
+
+color: #525252;
+}
+.odin__two_imgbox {
+    background-image: url(../../assets/images/serfer.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.odin__three_imgbox {
+    background-image: url(../../assets/images/peyzaj.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.container__triplbox_dva {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;    
+    margin-bottom: 25px;
+}
+.odin__four_imgbox {
+    background-image: url(../../assets/images/fix.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.odin__five_imgbox {
+    background-image: url(../../assets/images/whele.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.odin__six_imgbox {
+    background-image: url(../../assets/images/fixing.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.container__triplbox_tri {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;    
+    margin-bottom: 25px;
+}
+.odin__seven_imgbox {
+    background-image: url(../../assets/images/desert.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.odin__eight_imgbox {
+    background-image: url(../../assets/images/whater\ from\ car.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.odin__nine_imgbox {
+    background-image: url(../../assets/images/snow.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.addbox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* /main */
